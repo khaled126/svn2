@@ -1,0 +1,24 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "eshop backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "fcm-node": "^1.2.0",
+    "fs": "0.0.1-security",
+    "mongoose": "*",
+    "morgan": "*",
+    "node-gcm": "*",
+    "node-schedule": "*",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "socket.io": "*"
+  },
+  "author": "Khaled",
+  "license": "ISC"
+}
