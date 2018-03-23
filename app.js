@@ -9,4 +9,5 @@ app.use(bodyParser.json({limit: '5mb'}));
 //use routes file
 require('./routes/routes')(app);
 app.listen(port);
-console.log('server is up and running...');
+
+#console.log('server is up and running...');
